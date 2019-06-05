@@ -9,7 +9,10 @@
     "start:dev": "nodemon server/app.js"
   },
   "keywords": [],
-  "author": ["Lambda School", "Andy Bettisworth"],
+  "author": [
+    "Lambda School",
+    "Andy Bettisworth"
+  ],
   "dependencies": {
     "express": "^4.16.4",
     "helmet": "^3.16.0",
