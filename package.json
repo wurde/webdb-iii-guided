@@ -2,12 +2,14 @@
   "name": "webdb-iii-guided",
   "version": "1.0.0",
   "description": "Guided Project for Web DB III Module",
-  "main": "index.js",
+  "main": "server/app.js",
+  "private": true,
   "scripts": {
-    "server": "nodemon index.js"
+    "start": "node server/app.js",
+    "start:dev": "nodemon server/app.js"
   },
   "keywords": [],
-  "author": "Lambda School",
+  "author": ["Lambda School", "Andy Bettisworth"],
   "dependencies": {
     "express": "^4.16.4",
     "helmet": "^3.16.0",
